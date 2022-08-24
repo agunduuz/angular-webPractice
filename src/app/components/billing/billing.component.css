@@ -1,0 +1,158 @@
+.bill {
+  display: flex;
+  padding: 0 50px;
+}
+
+section h2 {
+  padding: 57px;
+  font-size: 32px;
+}
+
+.left-name h3 {
+  font-size: 16px;
+}
+
+.left-name p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+  margin-top: 5px;
+}
+
+.right {
+  color: #fff;
+  padding: 30px;
+  background-color: #ff3900;
+  border-radius: 20px;
+  height: 200px;
+  width: 300px;
+}
+
+.right h6 {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.right p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.right button {
+  margin: 15px auto;
+  width: 100%;
+  background-color: transparent;
+  padding: 3px 7px;
+  border-radius: 7px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 900px;
+}
+
+tr {
+  padding: 7px;
+  border-radius: 7px;
+}
+tr:nth-child(1):hover {
+  box-shadow: none;
+}
+tr:hover {
+  -webkit-box-shadow: -9px 6px 53px -15px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: -9px 6px 53px -15px rgba(0, 0, 0, 0.57);
+  box-shadow: -9px 6px 53px -15px rgba(0, 0, 0, 0.57);
+}
+th {
+  width: 300px;
+  text-align: start;
+}
+td {
+  width: 300px;
+}
+td button {
+  padding: 3px 7px;
+  background-color: transparent;
+  border: 2px solid #9999996b;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.left-name {
+  padding: 7px;
+}
+.bill-right {
+  display: flex;
+}
+
+.right-align {
+  margin-left: 5px;
+}
+.right {
+  margin-bottom: 5px;
+}
+.right:nth-child(2) {
+  background-color: #2fa622;
+}
+
+.right-align:nth-child(2) > .right:nth-child(2) {
+  background-color: #228771;
+}
+
+.right-align:nth-child(2) > .right:nth-child(1) {
+  background-color: #7f3876;
+}
+.bill-left a {
+  padding: 7px;
+  color: #ff3900;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.left-table {
+  margin-bottom: 10px;
+}
+.payment {
+  padding: 57px;
+  width: 800px;
+}
+
+.payment h3 {
+  font-size: 16px;
+}
+
+.payment p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+  margin-top: 5px;
+}
+
+.payment div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.pay-left i {
+  font-size: 60px;
+  margin-right: 10px;
+}
+
+.pay-right button {
+  background-color: transparent;
+  padding: 3px 30px;
+  border: 2px solid #9999996b;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+}
